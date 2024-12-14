@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.servicios {
+    background-color: #ffcccc;
+}
+
+.sistemas {
+    background-color: #ccffcc;
+}
+
+.montaje {
+    background-color: #ccccff;
+}
+
+.aplicaciones {
+    background-color: #ffffcc;
+}
+
+.empresa {
+    background-color: #ffccff;
+}

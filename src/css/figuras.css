@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}

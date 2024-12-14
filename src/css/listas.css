@@ -1,0 +1,8 @@
+ul.horizontal {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+ul.horizontal li {
+    margin-right: 20px;
+}

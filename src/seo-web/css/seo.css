@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: #c61461;
+
+}
+
+.descripción {
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #c61461;
+
+}
+
+.imagenes {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    height: auto;
+}
+
+details {
+    align-items: center;
+    text-align: center;
+}
+
+.enlaces {
+    display: block; 
+    width: 200px; 
+    margin: 0 auto; 
+    font-size: 20px;
+    text-align: center; 
+    text-decoration: none;
+    color: #000;
+}
