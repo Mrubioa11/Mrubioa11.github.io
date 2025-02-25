@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Formulario</title>
+    <link rel="stylesheet" href="css\formulario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Datos del Formulario</h1>
+        <div id="datosUsuario"></div>
+        <button onclick="window.location.href='formulario.html'">Volver al Formulario</button>
+    </div>
+
+    <script>
+        const datosUsuario = JSON.parse(localStorage.getItem('datosUsuario'));
+
+        const datosUsuarioDiv = document.getElementById('datosUsuario');
+        datosUsuarioDiv.innerHTML = `
+            <p><strong>Nombre:</strong> ${datosUsuario.nombre}</p>
+            <p><strong>Correo Electrónico:</strong> ${datosUsuario.email}</p>
+            <p><strong>Contraseña:</strong> ${datosUsuario.password}</p>
+            <p><strong>Fecha de Nacimiento:</strong> ${datosUsuario.fecha}</p>
+            <p><strong>País:</strong> ${datosUsuario.pais}</p>
+            <p><strong>Género:</strong> ${datosUsuario.genero}</p>
+            <p><strong>Comentarios:</strong> ${datosUsuario.comentarios}</p>
+        `;
+    </script>
+</body>
+</html>
